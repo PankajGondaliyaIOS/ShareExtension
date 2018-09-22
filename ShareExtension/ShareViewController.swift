@@ -2,8 +2,8 @@
 //  ShareViewController.swift
 //  ShareExtension
 //
-//  Created by pankaj on 05/01/18.
-//  Copyright © 2018 Infostretch. All rights reserved.
+//  Created by pankaj on 22/09/18.
+//  Copyright © 2018 Pankaj. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class ShareViewController: SLComposeServiceViewController {
         
         var arrSharedItems:NSMutableDictionary = [:]
         
-        let userDefault = UserDefaults(suiteName: "group.infostretch.shareKitDemo")
+        let userDefault = UserDefaults(suiteName: "group.Pankaj.shareKitDemo")
         if userDefault?.object(forKey: "SharedArray") as? [NSDictionary] != nil  {
             arrSharedItems = userDefault?.object(forKey: "SharedArray") as! NSMutableDictionary
         }
@@ -43,7 +43,7 @@ class ShareViewController: SLComposeServiceViewController {
                         
                         let dict: [String : Any] = ["imgData" :  imgData, "name" : self.contentText]
 //                        let userDefault = UserDefaults.standard
-//                        userDefault.addSuite(named: "group.infostretch.shareKitDemo")
+//                        userDefault.addSuite(named: "group.Pankaj.shareKitDemo")
                         arrSharedItems.setObject(dict, forKey: "img" as NSCopying)
 //                        userDefault.set(dict, forKey: "img")
 //                        userDefault.synchronize()
@@ -69,7 +69,7 @@ class ShareViewController: SLComposeServiceViewController {
                         arrSharedItems.setObject(dict, forKey: "txt" as NSCopying)
 
 //                        let userDefault = UserDefaults.standard
-//                        userDefault.addSuite(named: "group.infostretch.shareKitDemo")
+//                        userDefault.addSuite(named: "group.Pankaj.shareKitDemo")
 //                        userDefault.set(dict, forKey: "txt")
 //                        userDefault.synchronize()
                     })
@@ -83,7 +83,7 @@ class ShareViewController: SLComposeServiceViewController {
                         arrSharedItems.setObject(dict, forKey: "URL" as NSCopying)
 
 //                        let userDefault = UserDefaults.standard
-//                        userDefault.addSuite(named: "group.infostretch.shareKitDemo")
+//                        userDefault.addSuite(named: "group.Pankaj.shareKitDemo")
 //                        userDefault.set(dict, forKey: "URL")
 //                        userDefault.synchronize()
                     })

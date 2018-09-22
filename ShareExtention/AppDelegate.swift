@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  ShareExtention
 //
-//  Created by pankaj on 05/01/18.
-//  Copyright © 2018 Infostretch. All rights reserved.
+//  Created by pankaj on 22/09/18.
+//  Copyright © 2018 Pankaj. All rights reserved.
 //
 
 import UIKit

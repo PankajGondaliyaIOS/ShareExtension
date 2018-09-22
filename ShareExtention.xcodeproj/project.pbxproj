@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C98FF1C2004864400B91307 /* faceRecon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2C98FF1B2004864400B91307 /* faceRecon.jpeg */; };
 		2CE8DACA1FFF487C00A1C5BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8DAC91FFF487C00A1C5BD /* AppDelegate.swift */; };
 		2CE8DACC1FFF487C00A1C5BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE8DACB1FFF487C00A1C5BD /* ViewController.swift */; };
 		2CE8DACF1FFF487C00A1C5BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE8DACD1FFF487C00A1C5BD /* Main.storyboard */; };
@@ -43,7 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2C98FF1B2004864400B91307 /* faceRecon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faceRecon.jpeg; sourceTree = "<group>"; };
 		2CE8DAC61FFF487C00A1C5BD /* ShareExtention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareExtention.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE8DAC91FFF487C00A1C5BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CE8DACB1FFF487C00A1C5BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		2CE8DAC81FFF487C00A1C5BD /* ShareExtention */ = {
 			isa = PBXGroup;
 			children = (
-				2C98FF1B2004864400B91307 /* faceRecon.jpeg */,
 				2CE8DAC91FFF487C00A1C5BD /* AppDelegate.swift */,
 				2CE8DACB1FFF487C00A1C5BD /* ViewController.swift */,
 				2CE8DACD1FFF487C00A1C5BD /* Main.storyboard */,
@@ -163,7 +160,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Infostretch;
 				TargetAttributes = {
 					2CE8DAC51FFF487C00A1C5BD = {
@@ -200,7 +197,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C98FF1C2004864400B91307 /* faceRecon.jpeg in Resources */,
 				2CE8DAD41FFF487C00A1C5BD /* LaunchScreen.storyboard in Resources */,
 				2CE8DAD11FFF487C00A1C5BD /* Assets.xcassets in Resources */,
 				2CE8DACF1FFF487C00A1C5BD /* Main.storyboard in Resources */,
@@ -287,6 +283,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -294,6 +291,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -344,6 +342,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -351,6 +350,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -388,7 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShareExtention/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Infostretch.ShareExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.ShareExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,7 +403,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShareExtention/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Infostretch.ShareExtention;
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.ShareExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,7 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Infostretch.ShareExtention.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.ShareExtention.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -430,7 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShareExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Infostretch.ShareExtention.ShareExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = Pankaj.ShareExtention.ShareExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;

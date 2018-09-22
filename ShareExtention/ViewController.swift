@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  ShareExtention
 //
-//  Created by pankaj on 05/01/18.
-//  Copyright © 2018 Infostretch. All rights reserved.
+//  Created by pankaj on 22/09/18.
+//  Copyright © 2018 Pankaj. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         openImagePicker()
-        let userDefault = UserDefaults(suiteName: "group.infostretch.shareKitDemo")
+        let userDefault = UserDefaults(suiteName: "group.Pankaj.shareKitDemo")
         let sharedArray = userDefault?.object(forKey: "SharedArray")
         if sharedArray != nil {
             NSLog(sharedArray as! String, "a")
